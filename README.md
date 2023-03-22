@@ -1,0 +1,1 @@
+A new IO connector named DataLakeIO, which support to connect Beam and data lake, such as Delta Lake, Apache Hudi, Apache iceberg.
