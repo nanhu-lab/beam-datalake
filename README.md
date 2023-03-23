@@ -1,5 +1,5 @@
 # beam-datalake
-A new IO connector named DataLakeIO, which support to connect Apache Beam and data lake, such as Delta Lake, Apache Hudi, Apache iceberg. With DataLakeIO, data from Apache Beam's pipelines can be written to a data lake. It is also supported to read data from the data lake into Apache Beam's pipeline.  
+A new IO connector named DataLakeIO, which support to connect Apache Beam and data lake, such as Delta Lake, Apache Hudi, Apache iceberg. With DataLakeIO, data from Apache Beam's pipelines can be written to data lake. It is also supported to read data from data lake into Apache Beam's pipeline.  
 ## Requirements
 * Apache Spark 3.2.0 is required. 
 * Apache Beam 2.41.0 is required.
