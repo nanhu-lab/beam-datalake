@@ -7,6 +7,7 @@
     <groupId>org.nanhulab</groupId>
     <artifactId>beam-datalake</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
