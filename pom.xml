@@ -9,6 +9,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
+    <description>A new IO connector named DataLakeIO, which support to connect Apache Beam and data lake, such as Delta Lake, Apache Hudi, Apache iceberg. With DataLakeIO, data from Apache Beam's pipelines can be written to data lake. It is also supported to read data from data lake into Apache Beam's pipeline.</description>
     <url>https://github.com/nanhu-lab/beam-datalake</url>
 
     <scm>
@@ -165,7 +166,6 @@
                 <version>${maven-gpg-plugin.version}</version>
                 <executions>
                     <execution>
-                        <!-- id 与 setting.xml 的 gpg 配置中的 id 对应-->
                         <id>ossrh</id>
                         <phase>verify</phase>
                         <goals>
@@ -180,7 +180,6 @@
                 <version>${nexus-staging-maven-plugin.version}</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <!-- 与 setting.xml 的 server 配置中的 sonatype-release 对应-->
                     <serverId>sonatype-release</serverId>
                     <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
